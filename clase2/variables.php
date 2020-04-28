@@ -20,4 +20,20 @@
     echo "<br>";
     $decimal = 5.432;
     echo "Mi decimal es $decimal";
+    echo "<br>";
+    $booleano = true;
+    $booleano2 = false;
+    echo $booleano;
+    echo $booleano2;
+
+    $cadena1 = 'Esta es una cadena';
+    echo $cadena1;
+    $cadena2 = "Soy una 'cadena' en PHP";
+    echo "<br>";
+    echo $cadena2;
+    echo "<br>";
+    $cadena3 = 'Soy una "cadena" en PHP';
+    echo $cadena3;
+
+
 ?>
