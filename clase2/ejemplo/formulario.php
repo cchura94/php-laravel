@@ -10,11 +10,14 @@
     <h1>Operaciones aritmeticas</h1>
 
     <form action="./suma.php" method="GET">
+        <label for="">Ingrese N1:</label>
         <input type="number" name="n1">
         <br>
-        <input type="number" name="n2">    
+        <label for="">Ingrese N2:</label>
+        <input type="number" name=" ">    
         <br>
         <input type="submit" value="+">
+        <input type="submit" value="-">
         
     </form>
     
