@@ -1,28 +1,14 @@
 <?php
 include_once "./inc/cabecera.php";
 require "./inc/menu.php";
-include "./clases/Persona.php"
 ?>
 <div class="fila">
     <div class="cuerpo">
-        <h1>INICIO</h1>
-        <?php
-        
-        
-        $p1 = new Persona("Juan", "Quisbet", "12-11-2000", "9234234");
-        print_r($p1);
-        $p1->setNombre("Oscar");
+        <h1>Nuestros Productos</h1>
 
-        echo "<br>";
-        print_r($p1);
-        echo "<br>";
-        echo $p1->getNombre();
-
-        
-
-        
-        ?>
-
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur eius dignissimos nulla saepe omnis nam deleniti ea blanditiis at repellat aliquam eum culpa, voluptatum nostrum labore tempore? Temporibus, ullam labore?
+        </p>
     </div>
     <div class="menu2">
         <ol>
